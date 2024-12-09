@@ -14,7 +14,7 @@ function App() {
     // 서버에서 데이터 가져오기
     const fetchGameData = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/api/game-data");
+        const response = await axios.get("https://port-0-capstone-2024-2-be-m4gy3o6w7b065e23.sel4.cloudtype.app/api/game-data");
         setGameData(response.data); // 데이터 상태 업데이트
         setLoading(false); // 로딩 완료
       } catch (error) {
