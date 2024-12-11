@@ -2,7 +2,6 @@ import React from "react";
 
 function NeuroFeedbackInfo() {
   return (
-    // <div className="bg-gray-50 text-center p-5 mt-10">
     <div className = "text-center p-5 mt-10">
       <h2 className="text-xl font-bold">뉴로피드백이란?</h2>
       <div className="flex justify-center p-5">
@@ -28,27 +27,27 @@ function NeuroFeedbackInfo() {
           <tbody>
             <tr>
               <td className="border border-gray-300 px-4 py-2 text-sm">1~20</td>
-              <td className="border border-gray-300 px-4 py-2 text-sm">eSense의 "강하게 낮아진" 수준</td>
+              <td className="border border-gray-300 px-4 py-2 text-sm">집중도가 "강하게 낮아진" 수준</td>
             </tr>
             <tr>
               <td className="border border-gray-300 px-4 py-2 text-sm">20~40</td>
-              <td className="border border-gray-300 px-4 py-2 text-sm">eSense의 "감소된" 수준</td>
+              <td className="border border-gray-300 px-4 py-2 text-sm">집중도가 "감소된" 수준</td>
             </tr>
             <tr>
               <td className="border border-gray-300 px-4 py-2 text-sm">40~60</td>
               <td className="border border-gray-300 px-4 py-2 text-sm">
-                "중립"으로 간주되며 기존 EEG 측정 기술에서 설정된 "기준선"과 개념이 유사 (ThinkGear 기준선을 결정하는 방법은 독점적이며 기존 EEG와 다를 수 있음).
+                집중도가 "중립"인 수준
               </td>
             </tr>
             <tr>
               <td className="border border-gray-300 px-4 py-2 text-sm">60~80</td>
               <td className="border border-gray-300 px-4 py-2 text-sm">
-                "약간 높음"으로 간주되며 수준이 정상보다 높을 가능성이 있는 것으로 해석
+                집중도가 "약간 높음"수준
               </td>
             </tr>
             <tr>
               <td className="border border-gray-300 px-4 py-2 text-sm">80~100</td>
-              <td className="border border-gray-300 px-4 py-2 text-sm">"높음"으로 간주되며 해당 eSense의 수준이 높아진 상태</td>
+              <td className="border border-gray-300 px-4 py-2 text-sm">집중도가 "높음" 수준</td>
             </tr>
           </tbody>
         </table>
