@@ -37,9 +37,9 @@ function App() {
   return (
     <div className="relative min-h-screen bg-gray-50 text-center p-5">
       <Snowfall snowflakeCount={150} /> {/*눈송이 개수 */}
-      <h1 className="text-4xl font-bold text-gray-800">
+      <h2 className="text-4xl font-bold text-gray-800">
         switch on/off 결과 화면
-      </h1>
+      </h2>
       <NeuroFeedbackInfo />
       <FocusGraph attentions={gameData.attentions} />
       <TreeResult resultImageBase64={gameData.game_result.image_base64} />
