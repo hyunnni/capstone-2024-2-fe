@@ -21,7 +21,7 @@ function NeuroFeedbackInfo() {
         <table className="table-auto text-center border-collapse border border-gray-300">
           <thead>
             <tr className="bg-gray-200">
-              <th className="border border-gray-300 px-4 py-2">집중 값</th>
+              <th className="border border-gray-300 px-4 py-2">집중도</th>
               <th className="border border-gray-300 px-4 py-2">설명</th>
             </tr>
           </thead>
