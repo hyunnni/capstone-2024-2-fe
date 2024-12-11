@@ -7,9 +7,9 @@ function NeuroFeedbackInfo() {
       <div className="flex justify-center p-5">
         <p classNAme = " text-sm leading-relaxed text-gray-600 max-w-2xl">
             뉴로피드백이란 자신의 뇌에서 발생한 뇌파정보를 활용하여 
-            치료에 유용한 
+             유용한 
             <span classNmae = "font-bold"> 특정 뇌파를 훈련</span>
-            하는 치료 방법입니다. 
+            하는 방법입니다. 
             예를 들면 집중할 때 나타나는 특수한 뇌파를 두피에서 측정하여 
             그 신호를 실시간으로 화면이나 소리를 통해 모니터링하고, 
             훈련을 통해 그 신호를 늘려 집중력에 도움이 되도록 할 수 있습니다.
